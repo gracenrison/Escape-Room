@@ -1,0 +1,33 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+
+h1, h2,{
+  color:white; font-family:'Yeseva One', cursive;
+  font-weight: 100;
+  
+} 
+
+body{
+  border:5px solid;
+    margin:20px;
+  padding: 10px;
+  background-color:#D3D2D2;
+}
+
+*{font-family: }
+
+audio::-webit-media-controls-panel{
+  backgroud-color:pink
+}
+
+a{
+  font-family: font-family: 'Yeseva One', cursive;
+  font-weight:900
+  color:black
+  text-decortaion:none;
+}
