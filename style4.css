@@ -1,0 +1,31 @@
+body {
+   background-color: #888888
+    ;
+   padding: 30px;
+  
+  }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+        padding: 1px;
+        border: 8px solid black;
+}
+
+/*makes title glow*/
+h1 {
+  color: #000000;
+  text-shadow:
+    /* Black/White glow */
+    0 0 7px #000000,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Black glow */
+    0 0 42px #3357F0,
+    0 0 82px #000000,
+    0 0 92px #3357F0,
+    0 0 102px #000000,
+    0 0 151px #f00;
+}
