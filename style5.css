@@ -1,0 +1,34 @@
+body {
+   background-color: #888888
+    ;
+   padding: 30px;
+  
+  }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+        padding: 1px;
+        border: 8px solid black;
+}
+
+h1 {
+  color: #000000;
+  text-shadow:
+    /* Orange/White glow */
+    0 0 7px #FD9636,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Orange glow */
+    0 0 42px #FD9636,
+    0 0 82px #FD9636,
+    0 0 92px #FD9636,
+    0 0 102px #FD9636,
+    0 0 151px #f00;
+animation: fontweight alternate-reverse 3s infinite;
+}
+@keyframes fontweight{
+  from{font-weight:100}
+  to{font-weight:900}
